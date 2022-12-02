@@ -14,3 +14,7 @@ stroka = input("")
 for slovo in stroka:
     print(slovo,end="  ", flush=True)
     time.sleep(1)
+
+n=5
+string="Hello World "
+print(string * n)
